@@ -221,6 +221,8 @@ def get_config(
             ],
         )
 
+    print(f"besu cmd {cmd}")
+
     config_args = {
         "image": participant.el_image,
         "ports": used_ports,
