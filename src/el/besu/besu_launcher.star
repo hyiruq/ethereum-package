@@ -221,7 +221,7 @@ def get_config(
             ],
         )
 
-    print(f"besu cmd {cmd}")
+    print(f"besu cmd {cmd_str}")
 
     config_args = {
         "image": participant.el_image,
