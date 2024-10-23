@@ -332,7 +332,8 @@ def get_beacon_config(
             ],
         )
 
-    print(f"teku cmd {cmd}")
+    cmd_str = " ".join(cmd)
+    plan.print("besu cmd {0}".format(cmd_str))
 
     config_args = {
         "image": participant.cl_image,
