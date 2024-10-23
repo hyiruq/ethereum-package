@@ -332,6 +332,8 @@ def get_beacon_config(
             ],
         )
 
+    print(f"teku cmd {cmd}")
+
     config_args = {
         "image": participant.cl_image,
         "ports": used_ports,
